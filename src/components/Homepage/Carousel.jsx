@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 export default function Carousel() {
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [currentIndex, setCurrentIndex] = useState(1);
   const images = [
     "./school_carousel_1.jpg",
     "./school_carousel_2.jpg",
@@ -44,11 +44,12 @@ export default function Carousel() {
                   loading="lazy"
                   src={src}
                   alt={`Image ${index + 1}`}
-                  className="w-full h-full object-cover "
+                  className="w-full h-full object-cover center "
                 />
               </div>
             ))}
           </div>
+
           <button
             id="prev"
             onClick={prevSlide}

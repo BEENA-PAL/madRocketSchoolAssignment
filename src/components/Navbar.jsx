@@ -21,7 +21,7 @@ export default function Navbar() {
         <a href="/">
           <img
             loading="lazy"
-            src="https://i.pinimg.com/736x/48/a3/54/48a354314bb3517dabc705eb3ee8b968.jpg"
+            src="https://imgs.search.brave.com/5-wZCduKI_D4zVAona-gEGokqFb5X13Iq5dYQWS5OQE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTM1/MDY5NjYyNS92ZWN0/b3IvZWR1Y2F0aW9u/LWVtYmxlbS13aXRo/LWJvb2stYW5kLWdy/YWR1YXRpb24tY2Fw/LmpwZz9zPTYxMng2/MTImdz0wJms9MjAm/Yz01ankwM3dOd1Vi/d3o0VW1iUWtId3B1/YmQ1VHRObVRWQVhl/Q0tWTTgwNlN3PQ"
             alt="Logo"
             className="h-16 w-auto border-b"
           />
