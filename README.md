@@ -30,12 +30,6 @@ This school website provides a comprehensive platform to explore various aspects
 git clone https://github.com/BEENA-PAL/madRocketSchoolAssignment.git
 ```
 
-- **Change Working Directory to TurfReview**: To change the cwd to TurfReview, run
-
-```
-cd School-Website
-```
-
 - **Installing Dependencies**: To install the dependencies for both client and server, run
 
 ```
