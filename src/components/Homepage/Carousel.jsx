@@ -23,7 +23,7 @@ export default function Carousel() {
   };
 
   return (
-    <div className="flex justify-center w-full">
+    <div className="flex justify-center w-full mt-6">
       <div
         className="bg-gray-100 items-center w-full overflow-hidden"
         style={{ height: "40rem" }}

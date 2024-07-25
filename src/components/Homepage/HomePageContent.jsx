@@ -2,8 +2,8 @@ import Carousel from "./Carousel";
 
 export default function HomePageContent() {
   return (
-    <div className="bg-gray-100 min-h-screen flex flex-col items-center">
-      <header className="w-full bg-blue-400 p-4 flex justify-center items-center shadow-md pt-24">
+    <div className="bg-gray-100 min-h-screen flex flex-col items-center ">
+      <header className="w-full bg-blue-900 p-4 flex justify-center items-center shadow-md pt-24">
         <img
           loading="lazy"
           src="https://i.pinimg.com/736x/48/a3/54/48a354314bb3517dabc705eb3ee8b968.jpg"
@@ -27,7 +27,7 @@ export default function HomePageContent() {
 
       <Carousel />
 
-      <section className="w-full bg-orange-400 py-12 px-6 text-center text-white">
+      <section className="w-full bg-purple-700 py-12 px-6 text-center text-white mt-6 mb-6">
         <h2 className="text-2xl font-bold mb-4">
           Empowering Minds, Shaping Futures
         </h2>

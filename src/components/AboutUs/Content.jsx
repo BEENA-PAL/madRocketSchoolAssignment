@@ -1,8 +1,42 @@
 import AboutUsCarousel from "./AboutUsCarousel";
 
 export default function Content() {
+  const data = [
+    {
+      image: "./modern_classrooms.jpg",
+      heading: "Spacious and well-equipped classrooms",
+      para: "Our modern classrooms are equipped with the latest technology to facilitate an interactive and engaging learning environment.",
+    },
+    {
+      image: "./well_stocked_libraries.jpg",
+      heading: " Library with a vast collection of books and digital resources",
+      para: "Our library offers a wide range of books, digital resources, and comfortable study spaces for our students",
+    },
+    {
+      image: "./sports_facilities.jpg",
+      heading:
+        " Sports facilities including a playground, gymnasium, and  swimming pool",
+      para: " We provide extensive sports facilities, including playgrounds and gymnasiums, to support the physical development of our  students.",
+    },
+    {
+      image: "./science_lab.avif",
+      heading: " State-of-the-art science and computer labs",
+      para: " Our science and computer labs are equipped with the latest equipment and resources to provide hands-on learning experiences.",
+    },
+    {
+      image: "./music_room.webp",
+      heading: " Art and Music Room",
+      para: "Our dedicated art and music rooms provide students with the space and resources to explore their creative talents.",
+    },
+    {
+      image: "./cafeteria.jpeg",
+      heading: "Spacious Cafeteria",
+      para: " Our cafeteria offers a variety of healthy meal options and provides a comfortable dining area for students.",
+    },
+  ];
+
   return (
-    <div className="w-full pt-10 flex justify-center bg-gray-100">
+    <div className="w-full pt-10 flex justify-center bg-gray-300">
       <div className="flex flex-col w-5/6">
         <div className="mt-10">
           <h3 className="text-2xl font-semibold text-gray-900">
@@ -88,105 +122,24 @@ export default function Content() {
           <h3 className="text-2xl font-semibold text-gray-900">
             Our Infrastructure and Facilities
           </h3>
+
           <div className="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <img
-                src="./modern_classrooms.jpg"
-                loading="lazy"
-                alt="Classroom"
-                className="w-full h-48 object-cover rounded-lg"
-              />
-              <h4 className="mt-4 text-lg font-semibold text-gray-900">
-                Spacious and well-equipped classrooms
-              </h4>
-              <p className="mt-2 text-gray-600">
-                Our modern classrooms are equipped with the latest technology to
-                facilitate an interactive and engaging learning environment.
-              </p>
-            </div>
-
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <img
-                src="./well_stocked_libraries.jpg"
-                loading="lazy"
-                alt="Library"
-                className="w-full h-48 object-cover rounded-lg"
-              />
-              <h4 className="mt-4 text-lg font-semibold text-gray-900">
-                Library with a vast collection of books and digital resources
-              </h4>
-              <p className="mt-2 text-gray-600">
-                Our library offers a wide range of books, digital resources, and
-                comfortable study spaces for our students.
-              </p>
-            </div>
-
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <img
-                src="./sports_facilities.jpg"
-                alt="Sports Facilities"
-                loading="lazy"
-                className="w-full h-48 object-cover rounded-lg"
-              />
-              <h4 className="mt-4 text-lg font-semibold text-gray-900">
-                Sports facilities including a playground, gymnasium, and
-                swimming pool
-              </h4>
-              <p className="mt-2 text-gray-600">
-                We provide extensive sports facilities, including playgrounds
-                and gymnasiums, to support the physical development of our
-                students.
-              </p>
-            </div>
-
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <img
-                src="./science_lab.avif"
-                alt="Science Labs"
-                loading="lazy"
-                className="w-full h-48 object-cover rounded-lg"
-              />
-              <h4 className="mt-4 text-lg font-semibold text-gray-900">
-                State-of-the-art science and computer labs
-              </h4>
-              <p className="mt-2 text-gray-600">
-                Our science and computer labs are equipped with the latest
-                equipment and resources to provide hands-on learning
-                experiences.
-              </p>
-            </div>
-
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <img
-                src="./music_room.webp"
-                loading="lazy"
-                alt="Art and Music Room"
-                className="w-full h-48 object-cover rounded-lg"
-              />
-              <h4 className="mt-4 text-lg font-semibold text-gray-900">
-                Art and Music Room
-              </h4>
-              <p className="mt-2 text-gray-600">
-                Our dedicated art and music rooms provide students with the
-                space and resources to explore their creative talents.
-              </p>
-            </div>
-
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <img
-                src="./cafeteria.jpeg"
-                loading="lazy"
-                alt="Cafeteria"
-                className="w-full h-48 object-cover rounded-lg"
-              />
-              <h4 className="mt-4 text-lg font-semibold text-gray-900">
-                Spacious Cafeteria
-              </h4>
-              <p className="mt-2 text-gray-600">
-                Our cafeteria offers a variety of healthy meal options and
-                provides a comfortable dining area for students.
-              </p>
-            </div>
+            {data.map((data) => {
+              return (
+                <div className="bg-white p-6 rounded-lg shadow-md">
+                  <img
+                    src={`${data.image}`}
+                    loading="lazy"
+                    alt="Classroom"
+                    className="w-full h-48 object-cover rounded-lg"
+                  />
+                  <h4 className="mt-4 text-lg font-semibold text-gray-900">
+                    {data.heading}
+                  </h4>
+                  <p className="mt-2 text-gray-600">{data.para}</p>
+                </div>
+              );
+            })}
           </div>
         </div>
       </div>
