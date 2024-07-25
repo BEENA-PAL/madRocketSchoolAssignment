@@ -1,6 +1,6 @@
 # School Website (Madrocket Technologies & Media Internship Round)
 
-To view project, click [here](https://sudeev-school-website.vercel.app/)
+To view project, click [here](https://mad-rocket-school-assignment.vercel.app/)
 
 ## Overview
 
