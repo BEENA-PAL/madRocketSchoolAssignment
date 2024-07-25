@@ -6,13 +6,6 @@ To view project, click [here](https://mad-rocket-school-assignment.vercel.app/)
 
 This school website provides a comprehensive platform to explore various aspects of the institution, catering to students, parents, and educators. It is built using React.js and Tailwind CSS.
 
-## Preview
-
-![Alt text](./project_images/image.png)
-![Alt text](./project_images/image-2.png)
-
-## Key Features
-
 - **Homepage**: Welcoming visitors with an introduction to the school.
 - **About Us**: Detailed information about the school's history, mission, vision, and values.
 - **Academics**: Comprehensive details on the curriculum, subjects offered, and teaching methodologies.
