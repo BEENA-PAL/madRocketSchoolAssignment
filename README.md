@@ -27,7 +27,7 @@ This school website provides a comprehensive platform to explore various aspects
 - **Cloning the repository**: To clone the repository onto your machine, run
 
 ```
-git clone https://github.com/SudeevDivakar/School-Website.git
+git clone https://github.com/BEENA-PAL/madRocketSchoolAssignment.git
 ```
 
 - **Change Working Directory to TurfReview**: To change the cwd to TurfReview, run
