@@ -16,7 +16,7 @@ export default function Navbar() {
   ];
 
   return (
-    <div className="flex items-center w-full fixed justify-between h-16 z-50 px-6 bg-white shadow-md border-b">
+    <div className="flex items-center w-full fixed justify-between h-16 z-50 px-6 bg-white shadow-md text-lg border-b">
       <div className="flex-shrink-0">
         <a href="/">
           <img
